@@ -1,0 +1,14 @@
+#!/bin/bash
+for i in 1 2
+do
+  for i in 1 2
+  do
+    value='expr $i\*$j'
+    echo -n "value"
+   done
+  echo 
+done
+
+output:
+valuevalue
+valuevalue
