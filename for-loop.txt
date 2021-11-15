@@ -1,0 +1,40 @@
+#!/bin/bash
+files=`ls`
+for i in $files
+do
+ echo -n "$i"
+ grep $i $i
+done
+
+output-
+byefor.shhihlo
+
+
+#!/bin/bash
+files=`ls`
+for i in *;
+do
+ echo -n "$i"
+ grep $i $i
+done
+
+
+output-
+byefor.shhihlo
+
+
+
+#!/bin/bash
+for i in 1 2
+do
+  for i in 1 2
+  do
+    value='expr $i\*$j'
+    echo -n "$value"
+   done
+  echo 
+done
+
+output:
+expr $i\*$jexpr $i\*$j
+expr $i\*$jexpr $i\*$j
