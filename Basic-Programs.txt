@@ -1,0 +1,36 @@
+1.ECHO COMMAND
+#!/bin/bash
+echo "hello world"
+
+output-
+hello world
+
+
+2.COMMENTS
+#!/bin/bash
+echo "hello world"
+#addition program
+(( sum =2+24 ))
+echo $sum
+
+Output-
+hello world
+26
+
+3.MULTI-LINE COMMENTS
+#!/bin/bash
+echo "hello world"
+#addition program
+(( sum =2+24 ))
+echo $sum
+: '
+To find the area of a square
+area=s*s
+'
+(( area=4*4 ))
+echo "$area"
+
+Output-
+hello world
+26
+16
