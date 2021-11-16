@@ -10,5 +10,5 @@ do
 done
 
 output:
-valuevalue
-valuevalue
+expr $i\*$jexpr $i\*$j
+expr $i\*$jexpr $i\*$j
