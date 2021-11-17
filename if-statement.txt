@@ -1,0 +1,39 @@
+1.if statement-
+#!/bin/bash
+if grep "unix" myfiles ; then echo "got it";fi
+
+output-
+got it
+
+
+
+2.if and else statement-
+
+#!/bin/bash
+if grep "UNIX" myfile >/dev/null
+then
+ echo UNIX occurs in myfile
+else
+ echo NO!
+ echo UNIX does not occur in myfile
+fi
+
+output-
+UNIX occurs in myfile
+
+3.if and elif-
+#!/bin/bash
+if grep "UNIX" myfile >/dev/null
+then
+ echo UNIX occurs in myfile
+elif grep "DOS" myfile >/dev/null
+then 
+ echo UNIX does not occur in myfile,but dos occur in my file
+else 
+ echo unix nad dos are present
+fi
+
+OUTPUT-
+
+$ ./if.sh
+UNIX does not occur in myfile,but dos occur in my file
