@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "TOTAL ARGUMENTS : $#"
+echo "1st Arguments = $1"
+echo "2nd Argument = $2"
+output:
+$ bash arg Practicing linux commands
+TOTAL ARGUMENTS : 3
+1st Arguments = Practicing
+2nd Argument = linux

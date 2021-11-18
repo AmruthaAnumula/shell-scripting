@@ -1,0 +1,10 @@
+1.USER INPUT
+#!/bin/bash
+echo "ENTER YOUR NAME:"
+read name
+echo "WELCOME $name"
+output:
+$ ./read
+ENTER YOUR NAME:
+Ammu
+WELCOME Ammu

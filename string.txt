@@ -1,0 +1,13 @@
+#!/bin/bash
+read string1
+read string2
+echo "$string1$string2"
+string3=$string1+$string2
+string3+=" are practicing by me"
+echo $string3
+output-
+$ ./string
+Linux
+Commands
+LinuxCommands
+Linux+Commands are practicing by me
