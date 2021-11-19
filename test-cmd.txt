@@ -1,0 +1,27 @@
+1.INTEGER TESTS
+#!/bin/bash
+smallest=10000
+for i in 5 8 19 8 7 3;do
+ if [ $i -lt $smallest ];then
+    smallest=$i
+ fi
+done
+echo $smallest
+
+output-
+The smallest number is 3
+
+
+2.FILE TESTS
+
+#!/bin/bash
+count=0
+for i in *;do
+ if test -x $i;then
+ count=`expr $count + 1`
+ fi
+done
+echo total of "$count" files executable
+
+Output:
+total of 1 files executable

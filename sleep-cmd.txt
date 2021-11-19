@@ -1,0 +1,9 @@
+SLEEP
+#!/bin/bash
+echo "wait for 1 min"
+sleep 60
+echo "completed"
+
+OUTPUT-
+wait for 1 min
+completed
